@@ -79,7 +79,6 @@ $pvOutputURL = $pvOutputApiURL
                 . "&v9=" .  $meterPowerLive
                 . "&v10=" . $meterPowerLiveExport
                 . "&v11=" . $meterPowerLiveImport;
-//file_get_contents(trim($pvOutputURL));
 //Print Values to Console
 Echo "\n";
 Echo "d \t $date\n";
