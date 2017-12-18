@@ -1,11 +1,11 @@
 <?php
 // Configuration Options
-$dataManagerIP = "";
-$dataFile = "";
+$dataManagerIP = ""; // base ip for stats. this is usually the IP of the WiFi / Ethernet Device
+$dataFile = ""; 
 $pvOutputApiURL = "http://pvoutput.org/service/r2/addstatus.jsp?";
 $pvOutputApiKEY = "";
 $pvOutputSID = "";
-$pvInverters = 3;
+$pvInverters = 1;   // number of inverters in string
 // Inverter & Smart Meter API URLs
 $inverterDataURL = "http://".$dataManagerIP."/solar_api/v1/GetInverterRealtimeData.cgi?Scope=Device&DeviceID=%%id%%&DataCollection=CommonInverterData";
 $meterDataURL = "http://".$dataManagerIP."/solar_api/v1/GetMeterRealtimeData.cgi?Scope=Device&DeviceId=1";
